@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <GL/glut.h>
 #include <stdlib.h>
+#include <math.h>
 #include "Operador.h"
-#include "math.h"
 
 #define PI 3.14159265359
 

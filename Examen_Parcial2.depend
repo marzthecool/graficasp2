@@ -8,10 +8,10 @@
 1620620148 c:\users\juanm\documents\tec2021\graficas comp\examen_parcial2\include\punto.h
 	"Operador.h"
 
-1426374928 c:\program files\codeblocks\mingw\include\gl\glut.h
+1628812616 c:\program files\codeblocks\mingw\include\gl\glut.h
 	"freeglut_std.h"
 
-1426374928 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+1628812616 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
 	<windows.h>
 	<EGL/egl.h>
 	<GLES/gl.h>
@@ -232,6 +232,111 @@
 	<stdlib.h>
 
 1635532548 d:\documents\escuela\9no\gráficas computacionales\parcial 2\examen_parcial2\include\satelite.h
+	"Punto.h"
+	"Operador.h"
+
+1635641929 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\cohete.cpp
+	"Cohete.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635641715 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\cohete.h
+	"Punto.h"
+	"Operador.h"
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\punto.h
+	"Operador.h"
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\operador.h
+	<stack>
+
+1635554909 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\cubo.cpp
+	"Cubo.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\cubo.h
+	"Punto.h"
+	"Operador.h"
+
+1635622923 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\esfera.cpp
+	"Esfera.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\esfera.h
+	"Punto.h"
+	"Operador.h"
+
+1635623369 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\operador.cpp
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<math.h>
+	"Operador.h"
+
+1635633922 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\punto.cpp
+	"Punto.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635627330 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\satelite.cpp
+	"Satelite.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\satelite.h
+	"Punto.h"
+	"Operador.h"
+
+1635554909 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\triangulo.cpp
+	"Triangulo.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\triangulo.h
+	"Punto.h"
+	"Operador.h"
+
+1635644704 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\main.cpp
+	<stdlib.h>
+	<GL/glut.h>
+	<math.h>
+	"Punto.h"
+	"Cubo.h"
+	"Linea.h"
+	"Asteroide.h"
+	"Triangulo.h"
+	"Cohete.h"
+	"Satelite.h"
+	"Operador.h"
+	"Sphere.h"
+
+1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\linea.h
+	"Punto.h"
+
+1635638132 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\sphere.cpp
+	"Sphere.h"
+	<stdio.h>
+	<GL/glut.h>
+	<math.h>
+
+1635636933 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\sphere.h
+	"Punto.h"
+
+1635638820 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\asteroide.cpp
+	"Asteroide.h"
+	<stdio.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1635638832 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\asteroide.h
 	"Punto.h"
 	"Operador.h"
 

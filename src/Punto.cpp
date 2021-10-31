@@ -38,6 +38,8 @@ void Punto::draw()
     op->trsPuntos(p[0],p[1],p[2]);
     op->multPuntos(p,p);
 
+    glPointSize(3);
+
     glBegin(GL_POINTS);
         glColor3f(1.0,1.0,1.0);
         glVertex3f(p[0],p[1],p[2]);

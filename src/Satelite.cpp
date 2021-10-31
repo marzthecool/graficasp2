@@ -5,7 +5,7 @@
 
 Satelite::Satelite(Operador *opera)
 {
-    for(int i = 0; i < 12; i++)
+    for(int i = 0; i < 9; i++)
         misPuntos[i].setOperador(opera);
 
     misPuntos[0].setValues(0,0,0); //Origen picos

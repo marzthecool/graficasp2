@@ -47,7 +47,7 @@ Cohete::Cohete(Operador *opera)
     misPuntos[30].setValues(1.25,-0.4,1.25);
 
     for (int i = 0; i < 31; i++)
-        misPuntosP[i] = misPuntos[i];
+        //misPuntosP[i] = misPuntos[i];
 
     for (int i = 0; i < 3; i++)
     {
@@ -170,12 +170,13 @@ void Cohete::draw(){
     // inicia dibujado propulsor1
     for (int i = 15; i < 19; i++)
     {
+        //punta de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[i].p[0],misPuntosP[i].p[1],misPuntosP[i].p[2]);
         glVertex3f(misPuntosP[0].p[0],misPuntosP[0].p[1],misPuntosP[0].p[2]);
         glEnd();
     }
-
+        //base de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[15].p[0],misPuntosP[15].p[1],misPuntosP[15].p[2]);
         glVertex3f(misPuntosP[16].p[0],misPuntosP[16].p[1],misPuntosP[16].p[2]);
@@ -191,12 +192,13 @@ void Cohete::draw(){
     // inicia dibujado propulsor2
     for (int i = 19; i < 23; i++)
     {
+        //punta de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[i].p[0],misPuntosP[i].p[1],misPuntosP[i].p[2]);
         glVertex3f(misPuntosP[1].p[0],misPuntosP[1].p[1],misPuntosP[1].p[2]);
         glEnd();
     }
-
+        //base de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[19].p[0],misPuntosP[19].p[1],misPuntosP[19].p[2]);
         glVertex3f(misPuntosP[20].p[0],misPuntosP[20].p[1],misPuntosP[20].p[2]);
@@ -212,12 +214,13 @@ void Cohete::draw(){
     // inicia dibujado propulsor3
     for (int i = 23; i < 27; i++)
     {
+        //punta de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[i].p[0],misPuntosP[i].p[1],misPuntosP[i].p[2]);
         glVertex3f(misPuntosP[4].p[0],misPuntosP[4].p[1],misPuntosP[4].p[2]);
         glEnd();
     }
-
+        //base de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[23].p[0],misPuntosP[23].p[1],misPuntosP[23].p[2]);
         glVertex3f(misPuntosP[24].p[0],misPuntosP[24].p[1],misPuntosP[24].p[2]);
@@ -233,21 +236,22 @@ void Cohete::draw(){
     // inicia dibujado propulsor4
     for (int i = 27; i < 31; i++)
     {
+        //punta de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[i].p[0],misPuntosP[i].p[1],misPuntosP[i].p[2]);
         glVertex3f(misPuntosP[5].p[0],misPuntosP[5].p[1],misPuntosP[5].p[2]);
         glEnd();
     }
-
+        //base de propulsor
         glBegin(GL_LINES);
         glVertex3f(misPuntosP[27].p[0],misPuntosP[27].p[1],misPuntosP[27].p[2]);
         glVertex3f(misPuntosP[28].p[0],misPuntosP[28].p[1],misPuntosP[28].p[2]);
         glVertex3f(misPuntosP[27].p[0],misPuntosP[27].p[1],misPuntosP[27].p[2]);
         glVertex3f(misPuntosP[29].p[0],misPuntosP[29].p[1],misPuntosP[29].p[2]);
-//        glVertex3f(misPuntosP[29].p[0],misPuntosP[29].p[1],misPuntosP[29].p[2]);
-//        glVertex3f(misPuntosP[30].p[0],misPuntosP[30].p[1],misPuntosP[30].p[2]);
-//        glVertex3f(misPuntosP[28].p[0],misPuntosP[28].p[1],misPuntosP[28].p[2]);
-//        glVertex3f(misPuntosP[30].p[0],misPuntosP[30].p[1],misPuntosP[30].p[2]);
+        glVertex3f(misPuntosP[29].p[0],misPuntosP[29].p[1],misPuntosP[29].p[2]);
+        glVertex3f(misPuntosP[30].p[0],misPuntosP[30].p[1],misPuntosP[30].p[2]);
+        glVertex3f(misPuntosP[28].p[0],misPuntosP[28].p[1],misPuntosP[28].p[2]);
+        glVertex3f(misPuntosP[30].p[0],misPuntosP[30].p[1],misPuntosP[30].p[2]);
         glEnd();
     // termina dibujado propulsor4
 

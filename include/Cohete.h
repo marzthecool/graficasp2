@@ -7,7 +7,7 @@
 class Cohete
 {
 	private:
-		Punto misPuntos[30], misPuntosP[30];
+		Punto misPuntos[31], misPuntosP[31];
 		Operador *op;
 		float puntosPivote[3], puntosOrigen[3];
     public:
