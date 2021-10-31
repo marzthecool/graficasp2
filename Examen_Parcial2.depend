@@ -304,7 +304,7 @@
 	"Punto.h"
 	"Operador.h"
 
-1635644704 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\main.cpp
+1635649137 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\main.cpp
 	<stdlib.h>
 	<GL/glut.h>
 	<math.h>
@@ -321,7 +321,7 @@
 1635554909 c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\include\linea.h
 	"Punto.h"
 
-1635638132 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\sphere.cpp
+1635646675 source:c:\users\pvt_2\onedrive\tecs\itc\7_ad21\graficas_computacionales\graficasp2\src\sphere.cpp
 	"Sphere.h"
 	<stdio.h>
 	<GL/glut.h>

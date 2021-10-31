@@ -62,18 +62,18 @@ void Sphere::draw()
             for(int b = 0; b < resolution; b++){
                 glBegin(GL_LINES);
 
-                    glVertex3f(misPuntosP[a][b].p[0],misPuntosP[a][b].p[1],misPuntosP[a][b].p[2]);
+                    glVertex3f(misPuntosP[a][b].p[0]+puntoOrigen[0],misPuntosP[a][b].p[1]+puntoOrigen[1],misPuntosP[a][b].p[2]+puntoOrigen[2]);
 
                     if(a < resolution-1)
-                        glVertex3f(misPuntosP[a+1][b].p[0],misPuntosP[a+1][b].p[1],misPuntosP[a+1][b].p[2]);
+                        glVertex3f(misPuntosP[a+1][b].p[0]+puntoOrigen[0],misPuntosP[a+1][b].p[1]+puntoOrigen[1],misPuntosP[a+1][b].p[2]+puntoOrigen[2]);
 
                     if( (a >= resolution - 2) && (b >= resolution-1)){
                         //
                     } else{
-                        glVertex3f(misPuntosP[a][b+1].p[0],misPuntosP[a][b+1].p[1],misPuntosP[a][b+1].p[2]);
+                        glVertex3f(misPuntosP[a][b+1].p[0]+puntoOrigen[0],misPuntosP[a][b+1].p[1]+puntoOrigen[1],misPuntosP[a][b+1].p[2]+puntoOrigen[2]);
                     }
 
-                    glVertex3f(misPuntosP[a][b].p[0],misPuntosP[a][b].p[1],misPuntosP[a][b].p[2]);
+                    glVertex3f(misPuntosP[a][b].p[0]+puntoOrigen[0],misPuntosP[a][b].p[1]+puntoOrigen[1],misPuntosP[a][b].p[2]+puntoOrigen[2]);
                 glEnd();
             }
         }

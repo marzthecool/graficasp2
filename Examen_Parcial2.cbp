@@ -46,23 +46,19 @@
 			<Add library="gdi32" />
 			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
 		</Linker>
+		<Unit filename="include/Asteroide.h" />
 		<Unit filename="include/Cohete.h" />
-		<Unit filename="include/Cubo.h" />
-		<Unit filename="include/Esfera.h" />
 		<Unit filename="include/Operador.h" />
 		<Unit filename="include/Punto.h" />
 		<Unit filename="include/Satelite.h" />
 		<Unit filename="include/Sphere.h" />
-		<Unit filename="include/Triangulo.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Asteroide.cpp" />
 		<Unit filename="src/Cohete.cpp" />
-		<Unit filename="src/Cubo.cpp" />
-		<Unit filename="src/Esfera.cpp" />
 		<Unit filename="src/Operador.cpp" />
 		<Unit filename="src/Punto.cpp" />
 		<Unit filename="src/Satelite.cpp" />
 		<Unit filename="src/Sphere.cpp" />
-		<Unit filename="src/Triangulo.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

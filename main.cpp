@@ -1,3 +1,17 @@
+/************************************************************
+
+Escenario 3D mediante matriz global de modelado
+
+Gráficas Computacionales
+Prof. Iván Olmos Pineda
+Examen del Segundo Parcial
+
+A01730223 Pablo Vera Terán
+A01732035 Mary Laura Carmona Martínez
+A01732755 Frida Bonilla Vizcarra
+
+***********************************************************/
+
 #include <stdlib.h>
 #include <GL/glut.h>
 #include <math.h>
@@ -51,13 +65,11 @@ Sphere plan1(&operador3D);
 Sphere luna1(&operador3D);
 
 //Velocidad de animacion
-float d;
+float d; //Variable de control
 
 //puntos para eje de rotación
 Punto pA;
 Punto pB;
-//float pA[3];
-//float pB[3];
 
 void drawAxis()
 {
@@ -104,7 +116,7 @@ void display()
     glClear(GL_COLOR_BUFFER_BIT);
     drawAxis();
 
-    //Planetas
+    //Planeta
     operador3D.push();
         //position
             //..
@@ -137,7 +149,7 @@ void display()
         operador3D.trs(-4.0,-5.0,-40.0);
         //animation
         operador3D.trs(-d,d,d*3);
-        operador3D.rotX(-d*4);
+        operador3D.rotX(-d*10);
         //drawing
         nave1.update();
         glColor3f(0.8f,0.8f,0.8f); //plateado
@@ -160,10 +172,11 @@ void display()
     //Luna
     operador3D.push();
         //position
+        luna1.setOrigen(2,-4,-5);
         operador3D.esc(-15,-15,-15);
-        operador3D.trs(2,-4,-5);
         //animation
-        operador3D.trs(0,sin(d/2),sin(d/2));
+        operador3D.rotY(d*30);
+        operador3D.trs(0,2*sin(d/2),2*sin(d/2));
         //drawing
         luna1.update();
         glColor3f(0.4f,0.9f,0.4f); //verde
